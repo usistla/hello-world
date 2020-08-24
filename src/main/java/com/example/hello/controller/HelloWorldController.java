@@ -9,7 +9,6 @@ public class HelloWorldController {
 
     @GetMapping(value = "/ujjwal", produces = MediaType.APPLICATION_JSON_VALUE)
     public String prashant() {
-        System.out.println("Hey");
         return "Hello World";
     }
 }
